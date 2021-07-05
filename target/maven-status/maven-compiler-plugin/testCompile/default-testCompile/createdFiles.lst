@@ -1,0 +1,4 @@
+com\NForce\qa\testcases\BulkGuardPageTest.class
+com\NForce\qa\testcases\DashboardPageTest.class
+com\NForce\qa\testcases\LoginPageTest.class
+com\NForce\qa\testcases\HardBlockGTPageTest.class

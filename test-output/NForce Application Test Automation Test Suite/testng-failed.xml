@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NForce Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NForce Application Test Cases(failed)">
+    <classes>
+      <class name="com.NForce.qa.testcases.DashboardPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyclickOnTrafficManagementIconTest"/>
+          <include name="controlOnDashboardPage"/>
+        </methods>
+      </class> <!-- com.NForce.qa.testcases.DashboardPageTest -->
+      <class name="com.NForce.qa.testcases.BulkGuardPageTest">
+        <methods>
+          <include name="verifyClickOnSearchWildcardsTest"/>
+          <include name="setUp"/>
+          <include name="controlOnBulkGuardPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.NForce.qa.testcases.BulkGuardPageTest -->
+    </classes>
+  </test> <!-- NForce Application Test Cases(failed) -->
+</suite> <!-- Failed suite [NForce Application Test Automation Test Suite] -->

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="296.075" tests="18" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\taimoor\Downloads\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Taimoor\Desktop\MyPractices\NForceTest\target\test-classes;C:\Users\Taimoor\Desktop\MyPractices\NForceTest\target\classes;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Taimoor\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Taimoor\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Taimoor\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Taimoor\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Taimoor\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Taimoor\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Taimoor\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Taimoor\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Taimoor\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Taimoor\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Taimoor\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Taimoor\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Taimoor\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Taimoor\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Taimoor\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\Taimoor\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\Taimoor\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Taimoor\.m2\repository\org\apache\poi\poi\3.16-beta2\poi-3.16-beta2.jar;C:\Users\Taimoor\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Taimoor\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Taimoor\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Taimoor\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Taimoor\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Taimoor\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Taimoor\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Taimoor\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Taimoor\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Taimoor\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Taimoor\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Taimoor\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Taimoor\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Taimoor\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Taimoor\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Taimoor\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Taimoor\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Taimoor\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Taimoor\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Taimoor\AppData\Local\Temp\surefire9138180748258963466\surefirebooter4674697205211469282.jar C:\Users\Taimoor\AppData\Local\Temp\surefire9138180748258963466 2021-06-28T11-53-52_174-jvmRun1 surefire5072630033630630444tmp surefire_04041583606196242184tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Taimoor\Desktop\MyPractices\NForceTest\target\test-classes;C:\Users\Taimoor\Desktop\MyPractices\NForceTest\target\classes;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Taimoor\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Taimoor\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Taimoor\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Taimoor\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Taimoor\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Taimoor\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Taimoor\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Taimoor\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Taimoor\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Taimoor\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Taimoor\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Taimoor\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Taimoor\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Taimoor\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Taimoor\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Taimoor\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\Taimoor\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\Taimoor\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Taimoor\.m2\repository\org\apache\poi\poi\3.16-beta2\poi-3.16-beta2.jar;C:\Users\Taimoor\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Taimoor\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Taimoor\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Taimoor\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Taimoor\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Taimoor\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Taimoor\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Taimoor\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Taimoor\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Taimoor\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Taimoor\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Taimoor\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Taimoor\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Taimoor\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Taimoor\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Taimoor\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Taimoor\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Taimoor\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Taimoor\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Taimoor"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="C:\Users\Taimoor\Desktop\MyPractices\NForceTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Taimoor\AppData\Local\Temp\surefire9138180748258963466\surefirebooter4674697205211469282.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="Taimoor"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Taimoor\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Taimoor\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\Users\Taimoor\Desktop\MyPractices\NForceTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Taimoor\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Dev_Programs\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\Taimoor\AppData\Local\Microsoft\WindowsApps;;C:\Users\Taimoor\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="verifyBulkGuardLabelTest" classname="com.NForce.qa.testcases.BulkGuardPageTest" time="0.05">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (36d179b8e484839e4652bc52dea922ba)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (36d179b8e484839e4652bc52dea922ba)] -> name: submit]
+Trying to find Element By : By.xpath: //i[@class='icon-steering']
+Found Element By : By.xpath: //i[@class='icon-steering']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (36d179b8e484839e4652bc52dea922ba)] -> xpath: //i[@class='icon-steering']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (36d179b8e484839e4652bc52dea922ba)] -> xpath: //i[@class='icon-steering']]
+Trying to find Element By : By.xpath: //span[contains(text(),'BulkGuard')]
+Found Element By : By.xpath: //span[contains(text(),'BulkGuard')]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 22119
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863236.021][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:53:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyClickOnSearchWildcardsTest" classname="com.NForce.qa.testcases.BulkGuardPageTest" time="0.203">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (40ae98aa3db1fb71a582a2222fba39c1)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (40ae98aa3db1fb71a582a2222fba39c1)] -> name: submit]
+Trying to find Element By : By.xpath: //i[@class='icon-steering']
+Found Element By : By.xpath: //i[@class='icon-steering']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (40ae98aa3db1fb71a582a2222fba39c1)] -> xpath: //i[@class='icon-steering']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (40ae98aa3db1fb71a582a2222fba39c1)] -> xpath: //i[@class='icon-steering']]
+Trying to find Element By : By.xpath: //i[@class='fa fa-question']
+Found Element By : By.xpath: //i[@class='fa fa-question']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (40ae98aa3db1fb71a582a2222fba39c1)] -> xpath: //i[@class='fa fa-question']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (40ae98aa3db1fb71a582a2222fba39c1)] -> xpath: //i[@class='fa fa-question']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 18334
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863310.791][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:55:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="controlOnBulkGuardPage" classname="com.NForce.qa.testcases.BulkGuardPageTest" time="0.002">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (54cb93255b5e8bbea73f9aebc123e256)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (54cb93255b5e8bbea73f9aebc123e256)] -> name: submit]
+Trying to find Element By : By.xpath: //i[@class='icon-steering']
+Found Element By : By.xpath: //i[@class='icon-steering']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (54cb93255b5e8bbea73f9aebc123e256)] -> xpath: //i[@class='icon-steering']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (54cb93255b5e8bbea73f9aebc123e256)] -> xpath: //i[@class='icon-steering']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 24628
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863384.912][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:56:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDashboardTitleTest" classname="com.NForce.qa.testcases.DashboardPageTest" time="0">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (42f4ecff6adfa8f51e65a90c4ac521bb)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (42f4ecff6adfa8f51e65a90c4ac521bb)] -> name: submit]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 13666
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863259.798][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:54:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserNameTest" classname="com.NForce.qa.testcases.DashboardPageTest" time="0.283">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ec060e84a7474ca9144fba0dc537f38b)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ec060e84a7474ca9144fba0dc537f38b)] -> name: submit]
+Trying to find Element By : By.xpath: //ul[@class='userTools']//li
+Found Element By : By.xpath: //ul[@class='userTools']//li
+Trying to find Element By : By.xpath: //span[@class='role' and contains(text(), 'qatest.admin@internal.haud')]
+Found Element By : By.xpath: //span[@class='role' and contains(text(), 'qatest.admin@internal.haud')]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 2927
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863330.912][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:55:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verfiyMinimizeAllButtonTest" classname="com.NForce.qa.testcases.DashboardPageTest" time="0.158">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (340831d11fe3a95ac8bd08c679fe458b)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (340831d11fe3a95ac8bd08c679fe458b)] -> name: submit]
+Trying to find Element By : By.xpath: //span[normalize-space()='minimize all']
+Found Element By : By.xpath: //span[normalize-space()='minimize all']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (340831d11fe3a95ac8bd08c679fe458b)] -> xpath: //span[normalize-space()='minimize all']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (340831d11fe3a95ac8bd08c679fe458b)] -> xpath: //span[normalize-space()='minimize all']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 46128
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863403.055][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:56:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verfiyExpandAllButtonTest" classname="com.NForce.qa.testcases.DashboardPageTest" time="0.138">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (e83808c12d8a1aea25b9e422682933e0)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (e83808c12d8a1aea25b9e422682933e0)] -> name: submit]
+Trying to find Element By : By.xpath: //span[normalize-space()='expand all']
+Found Element By : By.xpath: //span[normalize-space()='expand all']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (e83808c12d8a1aea25b9e422682933e0)] -> xpath: //span[normalize-space()='expand all']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (e83808c12d8a1aea25b9e422682933e0)] -> xpath: //span[normalize-space()='expand all']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 32429
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863430.449][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:57:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verfiyReloadButtonTest" classname="com.NForce.qa.testcases.DashboardPageTest" time="0.16">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d0728252210972cd8cbcc650bfccc110)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d0728252210972cd8cbcc650bfccc110)] -> name: submit]
+Trying to find Element By : By.xpath: //span[normalize-space()='reload']
+Found Element By : By.xpath: //span[normalize-space()='reload']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d0728252210972cd8cbcc650bfccc110)] -> xpath: //span[normalize-space()='reload']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d0728252210972cd8cbcc650bfccc110)] -> xpath: //span[normalize-space()='reload']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 40497
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863456.739][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:57:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyaddNewDashboardTest" classname="com.NForce.qa.testcases.DashboardPageTest" time="0.415">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (846ebd9c90609abb6469cd2d9fff1a8b)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (846ebd9c90609abb6469cd2d9fff1a8b)] -> name: submit]
+Trying to find Element By : By.id: add_dashboard
+Found Element By : By.id: add_dashboard
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (846ebd9c90609abb6469cd2d9fff1a8b)] -> id: add_dashboard]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (846ebd9c90609abb6469cd2d9fff1a8b)] -> id: add_dashboard]
+Trying to find Element By : By.id: dashboard_name
+Found Element By : By.id: dashboard_name
+Trying to find Element By : By.xpath: //button[normalize-space()='Create']
+Found Element By : By.xpath: //button[normalize-space()='Create']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (846ebd9c90609abb6469cd2d9fff1a8b)] -> xpath: //button[normalize-space()='Create']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (846ebd9c90609abb6469cd2d9fff1a8b)] -> xpath: //button[normalize-space()='Create']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 29456
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863475.077][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:57:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyclickOnTrafficManagementIconTest" classname="com.NForce.qa.testcases.DashboardPageTest" time="2.031">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (de169b9eefa464b5625849d27cd3c483)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (de169b9eefa464b5625849d27cd3c483)] -> name: submit]
+Trying to find Element By : By.xpath: //i[@class='icon-steering']
+Found Element By : By.xpath: //i[@class='icon-steering']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (de169b9eefa464b5625849d27cd3c483)] -> xpath: //i[@class='icon-steering']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (de169b9eefa464b5625849d27cd3c483)] -> xpath: //i[@class='icon-steering']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 41863
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863493.144][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:58:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="controlOnDashboardPage" classname="com.NForce.qa.testcases.DashboardPageTest" time="0.016">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (58a3fd9510a20d452aefac2df639c039)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (58a3fd9510a20d452aefac2df639c039)] -> name: submit]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 2901
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863512.660][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:58:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyIsHardBlockGtPageTest" classname="com.NForce.qa.testcases.HardBlockGTPageTest" time="1.614">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ff742909e610b1ea664de34dbc9c1471)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ff742909e610b1ea664de34dbc9c1471)] -> name: submit]
+Trying to find Element By : By.xpath: //i[@class='icon-steering']
+Found Element By : By.xpath: //i[@class='icon-steering']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ff742909e610b1ea664de34dbc9c1471)] -> xpath: //i[@class='icon-steering']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ff742909e610b1ea664de34dbc9c1471)] -> xpath: //i[@class='icon-steering']]
+Trying to find Element By : By.xpath: //a[normalize-space()='']//i[@class='icon-hbgt']
+Found Element By : By.xpath: //a[normalize-space()='']//i[@class='icon-hbgt']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ff742909e610b1ea664de34dbc9c1471)] -> xpath: //a[normalize-space()='']//i[@class='icon-hbgt']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ff742909e610b1ea664de34dbc9c1471)] -> xpath: //a[normalize-space()='']//i[@class='icon-hbgt']]
+Trying to find Element By : By.xpath: //span[contains(text(),'HardBlock GT')]
+Found Element By : By.xpath: //span[contains(text(),'HardBlock GT')]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 24846
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863276.490][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:54:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyisHardBlockGtPageTest" classname="com.NForce.qa.testcases.HardBlockGTPageTest" time="0.001">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3f374658cfa8598cc4f963c9fc39b829)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3f374658cfa8598cc4f963c9fc39b829)] -> name: submit]
+Trying to find Element By : By.xpath: //i[@class='icon-steering']
+Found Element By : By.xpath: //i[@class='icon-steering']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3f374658cfa8598cc4f963c9fc39b829)] -> xpath: //i[@class='icon-steering']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3f374658cfa8598cc4f963c9fc39b829)] -> xpath: //i[@class='icon-steering']]
+Trying to find Element By : By.xpath: //a[normalize-space()='']//i[@class='icon-hbgt']
+Found Element By : By.xpath: //a[normalize-space()='']//i[@class='icon-hbgt']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3f374658cfa8598cc4f963c9fc39b829)] -> xpath: //a[normalize-space()='']//i[@class='icon-hbgt']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3f374658cfa8598cc4f963c9fc39b829)] -> xpath: //a[normalize-space()='']//i[@class='icon-hbgt']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 25834
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863348.661][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:55:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateAddNewParameterTest" classname="com.NForce.qa.testcases.HardBlockGTPageTest" time="0">
+    <skipped message="java.lang.NoSuchMethodError: org.apache.poi.util.POILogger.log(ILjava/lang/Object;)V"/>
+    <system-err><![CDATA[[Utils] [ERROR] [Error] java.lang.NoSuchMethodError: org.apache.poi.util.POILogger.log(ILjava/lang/Object;)V
+	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:304)
+	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:156)
+	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:124)
+	at org.apache.poi.openxml4j.opc.PackagePart.loadRelationships(PackagePart.java:559)
+	at org.apache.poi.openxml4j.opc.PackagePart.&lt;init&gt;(PackagePart.java:112)
+	at org.apache.poi.openxml4j.opc.PackagePart.&lt;init&gt;(PackagePart.java:83)
+	at org.apache.poi.openxml4j.opc.PackagePart.&lt;init&gt;(PackagePart.java:128)
+	at org.apache.poi.openxml4j.opc.ZipPackagePart.&lt;init&gt;(ZipPackagePart.java:78)
+	at org.apache.poi.openxml4j.opc.ZipPackage.getPartsImpl(ZipPackage.java:218)
+	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:662)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:269)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:73)
+	at com.NForce.qa.util.TestUtil.getTestData(TestUtil.java:40)
+	at com.NForce.qa.testcases.HardBlockGTPageTest.getIMSTestData(HardBlockGTPageTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+]]></system-err>
+  </testcase>
+  <testcase name="controlOnLoginPage" classname="com.NForce.qa.testcases.LoginPageTest" time="0.01">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 27598
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863303.533][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:55:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.NForce.qa.testcases.LoginPageTest" time="0.002">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 10865
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863377.404][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:56:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkIfNForceLogoPresent" classname="com.NForce.qa.testcases.LoginPageTest" time="0.118">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.xpath: //img[@src='/imgs/logo.png']
+Found Element By : By.xpath: //img[@src='/imgs/logo.png']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 32648
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863421.536][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:57:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.NForce.qa.testcases.LoginPageTest" time="0.412">
+    <system-out><![CDATA[Before navigating to: 'http://192.168.14.159/site/login'
+Navigated to:'http://192.168.14.159/site/login'
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: submit
+Found Element By : By.name: submit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (274eda6004eff95bae183ba65c32a076)] -> name: submit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (274eda6004eff95bae183ba65c32a076)] -> name: submit]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 34411
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624863448.215][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 28, 2021 11:57:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
